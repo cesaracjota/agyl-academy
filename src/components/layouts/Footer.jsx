@@ -16,7 +16,7 @@ export const Footer = (props) => {
             >
                 <Stack justifyContent={'stretch'} direction={{ base: "column", lg: "row" }} align="center" spacing={{ base: 5, lg: 10 }}>
                     <Stack direction={{ base: 'column', lg: 'row' }} alignSelf={'center'} justifyContent={'center'} alignItems={'center'} spacing={0}>
-                        <Image src={LOGO} boxSize={'16'} textAlign={'center'} alt={'Agyl Academy'} />
+                        <Image src={LOGO} w='full' h='full' boxSize={'16'} textAlign={'center'} alt={'Agyl Academy'} />
                         <Heading fontSize="xl" as="h1" fontWeight={'black'} alignSelf={'center'}>AGYL <span style={{ fontWeight: 'normal', fontSize: '18px'}}>academy</span></Heading>
                     </Stack>
                     <Divider display={{ base: 'flex', lg: 'none' }} />
