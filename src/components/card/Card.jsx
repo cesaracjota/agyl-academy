@@ -5,7 +5,7 @@ import { ArrowRightIcon } from '@chakra-ui/icons';
 const CardComponent = () => {
     return (
         <SimpleGrid columns={{base: 1, sm: 1, lg: 3}} spacing={4}>
-            <Card w={'full'} textAlign={'center'} _dark={{ bg: 'primary.1000', borderWidth: '1px', borderColor: 'primary.800' }} boxShadow={'base'}>
+            <Card w={'full'} textAlign={'center'} _dark={{ bg: 'primary.1000', borderWidth: '1px', borderColor: 'primary.800' }}>
                 <CardBody w="full" display={'flex'} justifyContent={'center'} alignItems={'center'}>
                     <Image src='https://vra.unsa.edu.pe/wp-content/themes/vra/img/escudo.svg' textAlign={'center'} alignSelf={'center'} maxW={60} alt='logo UNSAAC' />
                 </CardBody>
@@ -15,7 +15,7 @@ const CardComponent = () => {
                     </Button>
                 </CardFooter>
             </Card>
-            <Card w={'full'} textAlign={'center'} _dark={{ bg: 'primary.1000', borderWidth: '1px', borderColor: 'primary.800' }} boxShadow={'base'}>
+            <Card w={'full'} textAlign={'center'} _dark={{ bg: 'primary.1000', borderWidth: '1px', borderColor: 'primary.800' }}>
                 <CardBody w="full" display={'flex'} justifyContent={'center'} alignItems={'center'}>
                     <Image src='https://escueladerecho.pucp.edu.pe/wp-content/themes/PUCP/assets/img/decorations/logo-footer.svg' textAlign={'center'} alignSelf={'center'} maxW={60} alt='logo unsa' />
                 </CardBody>
@@ -25,7 +25,7 @@ const CardComponent = () => {
                     </Button>
                 </CardFooter>
             </Card>
-            <Card w={'full'} textAlign={'center'} _dark={{ bg: 'primary.1000', borderWidth: '1px', borderColor: 'primary.800' }} boxShadow={'base'}>
+            <Card w={'full'} textAlign={'center'} _dark={{ bg: 'primary.1000', borderWidth: '1px', borderColor: 'primary.800' }}>
                 <CardBody w="full" display={'flex'} justifyContent={'center'} alignItems={'center'}>
                     <Image src='https://img.icons8.com/fluency/256/student-male.png' textAlign={'center'} alignSelf={'center'} maxW={60} alt='logo unsa' />
                 </CardBody>

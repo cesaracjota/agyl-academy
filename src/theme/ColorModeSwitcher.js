@@ -5,7 +5,7 @@ import { ImSun } from 'react-icons/im';
 
 export const ColorModeSwitcher = () => {
   const { toggleColorMode } = useColorMode();
-  const SwitchIcon = useColorModeValue(FaRegMoon, ImSun);
+  const SwitchIcon = useColorModeValue(ImSun, FaRegMoon);
 
   return (
     <IconButton
@@ -13,7 +13,7 @@ export const ColorModeSwitcher = () => {
       fontSize="lg"
       onClick={toggleColorMode}
       aria-label={`Switch to ${useColorModeValue('dark', 'light')} mode`}
-      color={useColorModeValue('gray.900', 'inherit')}
+      color={useColorModeValue('gray.600', 'inherit')}
       icon={<SwitchIcon />}
       alignSelf="center"
       variant={'ghost'}

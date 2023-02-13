@@ -10,14 +10,16 @@ import {
     Image,
     Stack,
     useBreakpointValue,
-    Link
+    Link,
+    Divider
 } from '@chakra-ui/react'
 import { FiMenu } from 'react-icons/fi';
 import { ColorModeSwitcher } from '../../theme/ColorModeSwitcher';
 import LOGO from '../../assets/img/logo.svg';
-import "@fontsource/fira-sans-condensed"
+import "@fontsource/fira-sans-condensed";
 
 export const Navbar = () => {
+
     const isDesktop = useBreakpointValue({
         base: false,
         lg: true,
@@ -43,43 +45,47 @@ export const Navbar = () => {
                 <HStack spacing="10" justify="space-between">
                     {isDesktop ? (
                         <Flex justify="space-between" flex="1">
-                            <Link href={'/'}>
-                                <Stack spacing={2} direction="row">
-                                    <Image src={LOGO} maxW={8} alignSelf={'center'} />
-                                    <Stack direction={'row'}>
-                                        <Heading alignSelf={'center'} as={'h2'} size={'lg'} fontWeight={'extrabold'}>AGYL</Heading>
-                                        <Heading size={'sm'} alignSelf={'center'} fontWeight={'semibold'}>academy</Heading>
+                            <Link href={'/'} alignSelf="center">
+                                <Stack spacing={0} direction="row">
+                                    <Image src={LOGO} maxW={10} alignSelf={'center'} alt={'Agyl Academy'} />
+                                    <Stack direction={'row'} spacing={1}>
+                                        <Heading alignSelf={'center'} as={'h2'} size={'sm'} fontWeight={'extrabold'}>AGYL</Heading>
+                                        <Heading size={'xs'} alignSelf={'center'} fontWeight={'normal'}>academy</Heading>
                                     </Stack>
                                 </Stack>
                             </Link>
                             <ButtonGroup variant="link" spacing="8" fontFamily={`"Fira Sans Condensed", sans-serif`}>
                                 {['!NUEVOS CICLOS', 'BLOG', 'TUTORIALES', 'NOSOTROS', 'MAS INFORMACIÓN'].map((item) => (
-                                    <Button key={item}>{item}</Button>
+                                    <Button key={item} textColor="gray.600" _dark={{ color: 'gray.200' }}>{item}</Button>
                                 ))}
                             </ButtonGroup>
                             <HStack spacing="3">
                                 <ColorModeSwitcher />
+                                <Divider orientation='vertical' h={6} />
+                                <Button variant="ghost" colorScheme="gray" textColor={'gray.600'} _dark={{ color: 'white' }} fontWeight="bold" fontFamily={`"Fira Sans Condensed", sans-serif`}>
+                                    Iniciar Sesión
+                                </Button>
                             </HStack>
                         </Flex>
                     ) : (
                         <Flex justify="space-between" flex="1">
-                                <Stack spacing={2} direction="row">
-                                    <IconButton
-                                        variant="ghost"
-                                        icon={<FiMenu fontSize="1.25rem" />}
-                                        size={'md'}
-                                        rounded={'full'}
-                                        aria-label="Open Menu"
-                                    />
-                                    <Link href={'/'} alignSelf="center">
-                                        <Stack spacing={1} direction="row">
-                                            <Image src={LOGO} maxW={6} />
-                                            <Heading textAlign='center' alignSelf="center" as={'h2'} size={'md'} fontWeight={'extrabold'}>AGYL</Heading>
-                                            <Heading size={'sm'} alignSelf="center" fontWeight={'semibold'}>academy</Heading>
-                                        </Stack>
-                                    </Link>
+                            <Link href={'/'} alignSelf="center">
+                                <Stack spacing={1} direction="row">
+                                    <Image src={LOGO} maxW={8} alt={'Agyl Academy'} />
+                                    <Heading textAlign='center' alignSelf="center" as={'h2'} size={'sm'} fontWeight={'extrabold'}>AGYL</Heading>
+                                    <Heading size={'xs'} alignSelf="center" fontWeight={'normal'}>academy</Heading>
                                 </Stack>
-                            <ColorModeSwitcher />
+                            </Link>
+                            <Stack spacing={1} direction="row">
+                                <ColorModeSwitcher />
+                                <IconButton
+                                    variant="ghost"
+                                    icon={<FiMenu fontSize="1.25rem" />}
+                                    size={'md'}
+                                    rounded={'full'}
+                                    aria-label="Open Menu"
+                                />
+                            </Stack>
                         </Flex>
                     )}
                 </HStack>
