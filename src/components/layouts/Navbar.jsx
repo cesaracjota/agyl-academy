@@ -68,7 +68,7 @@ export const Navbar = () => {
                         <Flex justify="space-between" flex="1">
                             <Link href={'/'} alignSelf="center">
                                 <Stack spacing={1} direction="row">
-                                    <Image src={LOGO} maxW={8} alt={'Agyl Academy'} />
+                                    <Image src={LOGO} maxW={8} w="8" h="8" alt={'Agyl Academy'} />
                                     <Heading textAlign='center' alignSelf="center" as={'h2'} size={'sm'} fontWeight={'extrabold'}>AGYL</Heading>
                                     <Heading size={'xs'} alignSelf="center" fontWeight={'normal'}>academy</Heading>
                                 </Stack>
