@@ -2,6 +2,12 @@ import React from 'react';
 import { Box, Icon, Image, useBreakpointValue } from '@chakra-ui/react';
 import Carousel from 'nuka-carousel/lib/carousel';
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
+import BannerUNI from '../../assets/img/banner-UNI-verano-repaso-2023-01.webp';
+import BannerSanMarcos from '../../assets/img/banner-san-marcos-verano-repaso-2023-01.webp';
+import BannerCatolica from '../../assets/img/banner-catolica-verano-repaso-2023-01.webp';
+import BannerUNImobile from '../../assets/img/banner-UNI-verano-repaso-2023-01-MOBILE.webp';
+import BannerSanMarcosmobile from '../../assets/img/banner-san-marcos-verano-repaso-2023-01-MOBILE.webp';
+import BannerCatolicamobile from '../../assets/img/banner-catolica-verano-repaso-2023-01-MOBILE.webp';
 
 const Carrousel = () => {
 
@@ -71,9 +77,9 @@ const Carrousel = () => {
                     showIndicators={true}
                     showThumbs={true}
                 >
-                    <Image w={'full'} src="https://www.trilce.edu.pe/static/images/slides/banner-UNI-verano-repaso-2023-01.png" />
-                    <Image w={'full'} src="https://www.trilce.edu.pe/static/images/slides/banner-san-marcos-verano-repaso-2023-01.png" />
-                    <Image w={'full'} src="https://www.trilce.edu.pe/static/images/slides/banner-catolica-verano-repaso-2023-01.png" />
+                    <Image w={'full'} h={'full'} src={BannerUNI} alt="AGYL ACADEMY OFERTAS"/>
+                    <Image w={'full'} h={'full'} src={BannerCatolica} alt="AGYL ACADEMY OFERTAS"/>
+                    <Image w={'full'} h={'full'} src={BannerSanMarcos} alt="AGYL ACADEMY OFERTAS"/>
                 </Carousel>
             ) : (
                 <Carousel
@@ -135,9 +141,9 @@ const Carrousel = () => {
                     showIndicators={true}
                     showThumbs={true}
                 >
-                    <Image w={'full'} src="https://www.trilce.edu.pe/static/images/slides/banner-UNI-verano-repaso-2023-01-MOBILE.png" />
-                    <Image w={'full'} src="https://www.trilce.edu.pe/static/images/slides/banner-san-marcos-verano-repaso-2023-01-MOBILE.png" />
-                    <Image w={'full'} src="https://www.trilce.edu.pe/static/images/slides/banner-catolica-verano-repaso-2023-01-MOBILE.png" />
+                    <Image w={'full'} h={'full'} src={BannerUNImobile} alt="AGYL ACADEMY OFERTAS"/>
+                    <Image w={'full'} h={'full'} src={BannerCatolicamobile} alt="AGYL ACADEMY OFERTAS"/>
+                    <Image w={'full'} h={'full'} src={BannerSanMarcosmobile} alt="AGYL ACADEMY OFERTAS"/>
                 </Carousel>
             )}
         </Box>
