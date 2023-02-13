@@ -47,8 +47,8 @@ export const Navbar = () => {
                         <Flex justify="space-between" flex="1">
                             <Link href={'/'} alignSelf="center">
                                 <Stack spacing={0} direction="row" alignSelf={'center'}>
-                                    <Image src={LOGO} maxW={10} alignSelf={'center'} alt={'Agyl Academy'} />
-                                    <Heading fontSize="sm" as="h1" fontWeight={'black'} alignSelf={'center'}>AGYL <span style={{ fontWeight: 'normal', fontSize: '12px', alignSelf: 'center' }}>academy</span></Heading>
+                                    <Image src={LOGO} w={'full'} h={'full'} maxW={10} alignSelf={'center'} alt={'Agyl Academy'} />
+                                    <Heading fontSize="md" as="h1" fontWeight={'black'} alignSelf={'center'} noOfLines={1}>AGYL <span style={{ fontWeight: 'normal', fontSize: '12px', alignSelf: 'center' }}>academy</span></Heading>
                                 </Stack>
                             </Link>
                             <ButtonGroup variant="link" spacing="8" fontFamily={`"Fira Sans Condensed", sans-serif`}>
