@@ -13,7 +13,7 @@ const Carrousel = () => {
     });
 
     return (
-        <Box mt={'57px'} mx={0}>
+        <Box mt={'56px'} mx={0}>
             {isDesktop ? (
                 <Carousel
                     wrapAround={true}
