@@ -1,0 +1,16 @@
+import React from 'react';
+
+import { Routes, Route } from 'react-router-dom';
+import NotFoundPage from '../pages/404/NotFoundPage';
+import HomePage from '../pages/home/HomePage';
+import UnsaPage from '../pages/home/UnsaPage';
+
+export const AppRouter = () => {
+    return (
+        <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/unsa" element={<UnsaPage />} />
+            <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+    );
+}
