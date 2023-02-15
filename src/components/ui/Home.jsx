@@ -17,7 +17,7 @@ const Home = () => {
                         <Stack spacing={4} direction={'column'} w="full">
                             <Stack direction={'column'}>
                                 <Heading fontWeight={'900'} as='h2'>Inicios</Heading>
-                                <Text as={'p'} fontSize={'lg'}>Elige la preparación preuniversitaria exclusiva que estás buscando.</Text>
+                                <Text as={'p'} fontSize={'lg'}>Elige la preparación preuniversitaria exclusiva que estás buscando, en la mejor academia de Arequipa.</Text>
                             </Stack>
                             <CardComponent />
                         </Stack>
