@@ -11,15 +11,20 @@ import {
     Stack,
     useBreakpointValue,
     Link,
-    Divider
+    Divider,
+    Drawer,
+    DrawerOverlay,
+    DrawerContent,
+    DrawerCloseButton
 } from '@chakra-ui/react'
 import { FiMenu } from 'react-icons/fi';
 import { ColorModeSwitcher } from '../../theme/ColorModeSwitcher';
 import LOGO from '../../assets/img/logo.svg';
 import "@fontsource/fira-sans-condensed";
-import { Link as RouterLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import SidebarContent from './Sidebar';
 
-export const Navbar = () => {
+export const Navbar = (props) => {
 
     const isDesktop = useBreakpointValue({
         base: false,
@@ -46,28 +51,43 @@ export const Navbar = () => {
                 <HStack spacing="10" justify="space-between">
                     {isDesktop ? (
                         <Flex justify="space-between" flex="1">
-                            <Link as={RouterLink} to={'/'} alignSelf="center">
+                            <Link as={NavLink} to={'/'} alignSelf="center">
                                 <Stack spacing={0} direction="row" alignSelf={'center'}>
                                     <Image src={LOGO} w={'full'} h={'full'} maxW={10} alignSelf={'center'} alt={'Agyl Academy'} />
                                     <Heading fontSize="md" as="h1" fontWeight={'black'} alignSelf={'center'} noOfLines={1}>AGYL <span style={{ fontWeight: 'normal', fontSize: '12px', alignSelf: 'center' }}>academy</span></Heading>
                                 </Stack>
                             </Link>
                             <ButtonGroup variant="link" spacing="8" fontFamily={`"Fira Sans Condensed", sans-serif`}>
-                                {['!NUEVOS CICLOS', 'BLOG', 'TUTORIALES', 'NOSOTROS', 'MAS INFORMACIÓN'].map((item) => (
-                                    <Button key={item} textColor="gray.600" _dark={{ color: 'gray.200' }}>{item}</Button>
+                                {props.menus?.map((item, index) => (
+                                    <Button key={index} textColor="gray.600" _dark={{ color: 'gray.200' }}>{item.name}</Button>
                                 ))}
                             </ButtonGroup>
                             <HStack spacing="3">
                                 <ColorModeSwitcher />
                                 <Divider orientation='vertical' h={6} />
-                                <Button variant="ghost" colorScheme="gray" textColor={'gray.600'} _dark={{ color: 'white' }} fontWeight="bold" fontFamily={`"Fira Sans Condensed", sans-serif`}>
-                                    Iniciar Sesión
-                                </Button>
+                                <Link href='https://sga.vercel.app' isExternal>
+                                    <Button variant="ghost" colorScheme="gray" textColor={'gray.600'} _dark={{ color: 'white' }} fontWeight="bold" fontFamily={`"Fira Sans Condensed", sans-serif`}>
+                                        Ingresar
+                                    </Button>
+                                </Link>
                             </HStack>
                         </Flex>
                     ) : (
                         <Flex justify="space-between" flex="1">
-                            <Link as={RouterLink} to={'/'} alignSelf="center">
+                            <Drawer
+                                isOpen={props.isOpen}
+                                onClose={props.onClose}
+                                placement="top"
+                                size="full"
+                                isFullHeight
+                            >
+                                <DrawerOverlay />
+                                <DrawerContent justifyContent={'center'} justify="center" alignItems={'center'}>
+                                <DrawerCloseButton size={'lg'}/>
+                                    <SidebarContent w="full" borderRight="none" />
+                                </DrawerContent>
+                            </Drawer>
+                            <Link as={NavLink} to={'/'} alignSelf="center">
                                 <Stack spacing={1} direction="row">
                                     <Image src={LOGO} maxW={8} w="8" h="8" alt={'Agyl Academy'} />
                                     <Heading textAlign='center' alignSelf="center" as={'h2'} size={'sm'} fontWeight={'extrabold'}>AGYL</Heading>
@@ -82,6 +102,7 @@ export const Navbar = () => {
                                     size={'md'}
                                     rounded={'full'}
                                     aria-label="Open Menu"
+                                    onClick={props.onOpen}
                                 />
                             </Stack>
                         </Flex>

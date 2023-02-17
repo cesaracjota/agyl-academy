@@ -26,7 +26,7 @@ const Carrousel = () => {
                         backgroundColor: '#ff6334',
                     }}
                     autoplay={true}
-                    // animation='fade'
+                    animation='fade'
                     autoplayInterval={3000}
                     defaultControlsConfig={{
                         Dots: {

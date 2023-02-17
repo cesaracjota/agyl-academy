@@ -9,7 +9,7 @@ export const AppRouter = () => {
     return (
         <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/unsa" element={<UnsaPage />} />
+            <Route path="/universidad-nacional-san-agustin" element={<UnsaPage />} />
             <Route path="*" element={<NotFoundPage />} />
         </Routes>
     );
