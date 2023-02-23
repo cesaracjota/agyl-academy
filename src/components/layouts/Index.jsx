@@ -26,8 +26,8 @@ const Index = ({ componente: Component }) => {
             path: '/nosotros',
         },
         {
-            name: 'MAS INFORMACIÓN',
-            path: '/mas-informacion',
+            name: 'VER PUNTAJES',
+            path: '/maximos-minimos-admision',
         }
     ];
 

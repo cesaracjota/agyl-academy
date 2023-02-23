@@ -22,11 +22,8 @@ const NavItem = (props) => {
 
     return (
         <Flex
-            align="center"
-            textAlign={'center'}
-            alignItems="center" 
-            justifyContent="center"
             py="10px"
+            px="3"
             cursor="pointer"
             _hover={{
                 bg: bgActiveLinkColor,
@@ -71,8 +68,8 @@ const SidebarContent = (props) => {
             path: '/nosotros',
         },
         {
-            name: 'MAS INFORMACIÓN',
-            path: '/mas-informacion',
+            name: 'VER PUNTAJES',
+            path: '/maximos-minimos-admision',
         },
     ];
 

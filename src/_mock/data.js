@@ -121,7 +121,7 @@ export const CursoMasVistos = [
         "titulo": "Duerme Mejor y Logra un Suenio Reparador",
         "brand_color": "#162936",
         "path": "/curso-branding-emocional",
-        "image": "https://static.platzi.com/media/achievements/piezas-branding-emocional_badge-3f42b9c2-52f4-4468-8290-e27a8f63be52.png"
+        "image": "https://static.platzi.com/media/achievements/piezas-audiocursos-dormir-mejor_badge-2d2dcfe3-a838-48d5-9d3b-845df86f0192.png"
     },
     {
         "id": 5,
@@ -132,8 +132,8 @@ export const CursoMasVistos = [
     },
     {
         "id": 2,
-        "titulo": "CONSULTA LA AGENDA",
-        "brand_color": "#33b1ff",
+        "titulo": "CONSULTAR LA AGENDA",
+        "brand_color": "#162936",
         "path": "/agenda",
         "image": "https://static.platzi.com/mf-landings/image/agenda_icon@2x-f9f5698196f2dc60648d97b97bf4b27b.png"
     },

@@ -36,7 +36,7 @@ export const Navbar = (props) => {
             as="nav"
             boxShadow="base"
             role="navigation"
-            bg="white"
+            bg="#fffffff0"
             _dark={{ bg: 'primary.1000', borderBottomWidth: '.5px', borderColor: 'gray.900' }}
             pos={{ base: "fixed", md: "fixed" }}
             zIndex="2"
@@ -57,9 +57,11 @@ export const Navbar = (props) => {
                                     <Heading fontSize="md" as="h1" fontWeight={'black'} alignSelf={'center'} noOfLines={1}>AGYL <span style={{ fontWeight: 'normal', fontSize: '12px', alignSelf: 'center' }}>academy</span></Heading>
                                 </Stack>
                             </Link>
-                            <ButtonGroup variant="link" spacing="8" fontFamily={`"Fira Sans Condensed", sans-serif`}>
+                            <ButtonGroup variant="link" spacing="8">
                                 {props.menus?.map((item, index) => (
-                                    <Button key={index} textColor="gray.600" _dark={{ color: 'gray.200' }}>{item.name}</Button>
+                                    <Link as={NavLink} key={index} to={item.path} alignSelf={'center'}>
+                                        <Button fontFamily={`"Fira Sans Condensed", sans-serif`} textColor="gray.600" _dark={{ color: 'gray.200' }}>{item.name}</Button>
+                                    </Link>
                                 ))}
                             </ButtonGroup>
                             <HStack spacing="3">
