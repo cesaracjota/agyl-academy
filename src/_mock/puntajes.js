@@ -26,8 +26,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "INGENIERIA CIVIL",
-        "puntaje_maximo": 76.273772,
-        "puntaje_minimo": 67.519391
+        "puntaje_maximo": "76.273772",
+        "puntaje_minimo": "67.519391"
     },
     {
         "id": 4,
@@ -36,8 +36,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "DERECHO",
-        "puntaje_maximo": 75.024084,
-        "puntaje_minimo": 62.523388
+        "puntaje_maximo": "75.024084",
+        "puntaje_minimo": "62.523388"
     },
     {
         "id": 5,
@@ -46,8 +46,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "INGENIERIA INDUSTRIAL",
-        "puntaje_maximo": 75.018486,
-        "puntaje_minimo": 63.753042
+        "puntaje_maximo": "75.018486",
+        "puntaje_minimo": "63.753042"
     },
     {
         "id": 6,
@@ -56,8 +56,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "INGENIERIA AMBIENTAL",
-        "puntaje_maximo": 75.015695,
-        "puntaje_minimo": 62.504880
+        "puntaje_maximo": "75.015695",
+        "puntaje_minimo": "62.504880"
     },
     {
         "id": 7,
@@ -96,8 +96,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "PSICOLOGIA",
-        "puntaje_maximo": 72.527509,
-        "puntaje_minimo": 61.257036
+        "puntaje_maximo": "72.527509",
+        "puntaje_minimo": "61.257036"
     },
     {
         "id": 11,
@@ -106,8 +106,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "INGENIERIA MECANICA",
-        "puntaje_maximo": 70.974352,
-        "puntaje_minimo": 61.497468
+        "puntaje_maximo": "70.974352",
+        "puntaje_minimo": "61.497468"
     },
     {
         "id": 12,
@@ -116,8 +116,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "ARQUITECTURA",
-        "puntaje_maximo": 70.974352,
-        "puntaje_minimo": 61.497468
+        "puntaje_maximo": "70.974352",
+        "puntaje_minimo": "61.497468"
     },
     {
         "id": 13,
@@ -126,8 +126,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "INGENIERIA METALURGICA",
-        "puntaje_maximo": 70.022560,
-        "puntaje_minimo": 48.777622
+        "puntaje_maximo": "70.022560",
+        "puntaje_minimo": "48.777622"
     },
     {
         "id": 14,
@@ -136,8 +136,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "INGENIERIA DE TELECOMUNICACIONES",
-        "puntaje_maximo": 68.765262,
-        "puntaje_minimo": 48.746561
+        "puntaje_maximo": "68.765262",
+        "puntaje_minimo": "48.746561"
     },
     {
         "id": 15,
@@ -146,8 +146,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "ECONOMIA",
-        "puntaje_maximo": 68.762167,
-        "puntaje_minimo": 53.737502
+        "puntaje_maximo": "68.762167",
+        "puntaje_minimo": "53.737502"
     },
     {
         "id": 16,
@@ -156,8 +156,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "INGENIERIA ELECTRICA",
-        "puntaje_maximo": 67.515412,
-        "puntaje_minimo": 53.775385
+        "puntaje_maximo": "67.515412",
+        "puntaje_minimo": "53.775385"
     },
     {
         "id": 17,
@@ -166,8 +166,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "CONTABILIDAD",
-        "puntaje_maximo": 67.502690,
-        "puntaje_minimo": 52.521223
+        "puntaje_maximo": "67.502690",
+        "puntaje_minimo": "52.521223"
     },
     {
         "id": 18,
@@ -176,8 +176,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "EDUCACION",
-        "puntaje_maximo": 67.493161,
-        "puntaje_minimo": 38.787451
+        "puntaje_maximo": "67.493161",
+        "puntaje_minimo": "38.787451"
     },
     {
         "id": 19,
@@ -186,8 +186,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "BIOMEDICAS",
         "carrera": "ENFERMERIA",
-        "puntaje_maximo": 66.381017,
-        "puntaje_minimo": 58.742616
+        "puntaje_maximo": "66.381017",
+        "puntaje_minimo": "58.742616"
     },
     {
         "id": 20,
@@ -196,8 +196,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "INGENIERIA DE MINAS",
-        "puntaje_maximo": 66.269284,
-        "puntaje_minimo": 61.260538
+        "puntaje_maximo": "66.269284",
+        "puntaje_minimo": "61.260538"
     },
     {
         "id": 21,
@@ -206,8 +206,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "INGENIERIA ELECTRONICA",
-        "puntaje_maximo": 66.268433,
-        "puntaje_minimo": 56.285769
+        "puntaje_maximo": "66.268433",
+        "puntaje_minimo": "56.285769"
     },
     {
         "id": 22,
@@ -216,8 +216,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "GESTION",
-        "puntaje_maximo": 66.256419,
-        "puntaje_minimo": 38.748363
+        "puntaje_maximo": "66.256419",
+        "puntaje_minimo": "38.748363"
     },
     {
         "id": 23,
@@ -226,8 +226,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "BIOMEDICAS",
         "carrera": "BIOLOGIA",
-        "puntaje_maximo": 65.063345,
-        "puntaje_minimo": 48.750417
+        "puntaje_maximo": "65.063345",
+        "puntaje_minimo": "48.750417"
     },
 
     {
@@ -237,8 +237,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "RELACIONES INDUSTRIALES",
-        "puntaje_maximo": 65.048310,
-        "puntaje_minimo": 52.512366
+        "puntaje_maximo": "65.048310",
+        "puntaje_minimo": "52.512366"
     },
     {
         "id": 25,
@@ -247,8 +247,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "LITERATURA Y LINGUISTICA",
-        "puntaje_maximo": 65.032624,
-        "puntaje_minimo": 47.518723
+        "puntaje_maximo": "65.032624",
+        "puntaje_minimo": "47.518723"
     },
     {
         "id": 26,
@@ -257,8 +257,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "TRABAJO SOCIAL",
-        "puntaje_maximo": 65.020785,
-        "puntaje_minimo": 48.763376
+        "puntaje_maximo": "65.020785",
+        "puntaje_minimo": "48.763376"
     },
     {
         "id": 27,
@@ -267,8 +267,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "FILOSOFIA",
-        "puntaje_maximo": 64.978441,
-        "puntaje_minimo": 40.005828
+        "puntaje_maximo": "64.978441",
+        "puntaje_minimo": "40.005828"
     },
     {
         "id": 28,
@@ -277,8 +277,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "TURISMO Y HOTELERIA",
-        "puntaje_maximo": 63.768947,
-        "puntaje_minimo": 45.028466
+        "puntaje_maximo": "63.768947",
+        "puntaje_minimo": "45.028466"
     },
     {
         "id": 29,
@@ -287,8 +287,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "INGENIERIA QUIMICA",
-        "puntaje_maximo": 63.763231,
-        "puntaje_minimo": 53.761595
+        "puntaje_maximo": "63.763231",
+        "puntaje_minimo": "53.761595"
     },
     {
         "id": 30,
@@ -297,8 +297,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "INGENIERIA DE INDUSTRIAS ALIMENTARIAS",
-        "puntaje_maximo": 63.743574,
-        "puntaje_minimo": 47.494303
+        "puntaje_maximo": "63.743574",
+        "puntaje_minimo": "47.494303"
     },
     {
         "id": 31,
@@ -307,8 +307,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "INGENIERIA GEOFISICA",
-        "puntaje_maximo": 63.733784,
-        "puntaje_minimo": 48.781246
+        "puntaje_maximo": "63.733784",
+        "puntaje_minimo": "48.781246"
     },
     {
         "id": 32,
@@ -317,8 +317,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "MARKETING",
-        "puntaje_maximo": 62.504923,
-        "puntaje_minimo": 52.494091
+        "puntaje_maximo": "62.504923",
+        "puntaje_minimo": "52.494091"
     },
     {
         "id": 33,
@@ -327,8 +327,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "CIENCIAS DE LA COMPUTACION",
-        "puntaje_maximo": 62.498102,
-        "puntaje_minimo": 53.782743
+        "puntaje_maximo": "62.498102",
+        "puntaje_minimo": "53.782743"
     },
     {
         "id": 34,
@@ -337,8 +337,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "FINANZAS",
-        "puntaje_maximo": 61.264822,
-        "puntaje_minimo": 52.504477
+        "puntaje_maximo": "61.264822",
+        "puntaje_minimo": "52.504477"
     },
     {
         "id": 35,
@@ -347,8 +347,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "INGENIERIA SANITARIA",
-        "puntaje_maximo": 60.008344,
-        "puntaje_minimo": 52.517089
+        "puntaje_maximo": "60.008344",
+        "puntaje_minimo": "52.517089"
     },
     {
         "id": 36,
@@ -357,8 +357,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "FISICA",
-        "puntaje_maximo": 59.983185,
-        "puntaje_minimo": 38.779409
+        "puntaje_maximo": "59.983185",
+        "puntaje_minimo": "38.779409"
     },
     {
         "id": 37,
@@ -367,8 +367,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "SOCIOLOGIA",
-        "puntaje_maximo": 58.757452,
-        "puntaje_minimo": 45.032807
+        "puntaje_maximo": "58.757452",
+        "puntaje_minimo": "45.032807"
     },
     {
         "id": 38,
@@ -377,8 +377,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "QUIMICA",
-        "puntaje_maximo": 58.749653,
-        "puntaje_minimo": 38.759855
+        "puntaje_maximo": "58.749653",
+        "puntaje_minimo": "38.759855"
     },
     {
         "id": 39,
@@ -387,8 +387,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "INGENIERIA DE MATERIALES",
-        "puntaje_maximo": 58.745303,
-        "puntaje_minimo": 45.022634
+        "puntaje_maximo":"58.745303",
+        "puntaje_minimo": "45.022634"
     },
     {
         "id": 40,
@@ -398,8 +398,8 @@ export const data_puntajes = [
         "area": "SOCIALES",
         "carrera": "CIENCIAS DE LA COMUNICACION",
 
-        "puntaje_maximo": 57.541998,
-        "puntaje_minimo": 47.502761
+        "puntaje_maximo": "57.541998",
+        "puntaje_minimo": "47.502761"
     },
     {
         "id": 41,
@@ -408,8 +408,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "BIOMEDICAS",
         "carrera": "AGRONOMIA",
-        "puntaje_maximo": 57.521909,
-        "puntaje_minimo": 42.512971
+        "puntaje_maximo": "57.521909",
+        "puntaje_minimo": "42.512971"
     },
     {
         "id": 42,
@@ -418,8 +418,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "BANCA Y SEGUROS",
-        "puntaje_maximo": 56.269546,
-        "puntaje_minimo": 42.519287
+        "puntaje_maximo": "56.269546",
+        "puntaje_minimo": "42.519287"
     },
     {
         "id": 43,
@@ -428,8 +428,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "INGENIERIAS",
         "carrera": "MATEMATICAS",
-        "puntaje_maximo": 56.248460,
-        "puntaje_minimo": 40.006593
+        "puntaje_maximo": "56.248460",
+        "puntaje_minimo": "40.006593"
     },
     {
         "id": 44,
@@ -438,8 +438,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "HISTORIA",
-        "puntaje_maximo": 55.009436,
-        "puntaje_minimo": 43.755298
+        "puntaje_maximo": "55.009436",
+        "puntaje_minimo": "43.755298"
     },
     {
         "id": 45,
@@ -448,8 +448,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "BIOMEDICAS",
         "carrera": "CIENCIAS DE LA NUTRICION",
-        "puntaje_maximo": 53.782362,
-        "puntaje_minimo": 43.751854
+        "puntaje_maximo": "53.782362",
+        "puntaje_minimo": "43.751854"
     },
     {
         "id": 46,
@@ -458,8 +458,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "SOCIALES",
         "carrera": "ANTROPOLOGIA",
-        "puntaje_maximo": 51.287533,
-        "puntaje_minimo": 42.502721
+        "puntaje_maximo": "51.287533",
+        "puntaje_minimo": "42.502721"
     },
     {
         "id": 47,
@@ -468,8 +468,8 @@ export const data_puntajes = [
         "fase": "I FASE",
         "area": "BIOMEDICAS",
         "carrera": "INGENIERIA PESQUERA",
-        "puntaje_maximo": 40.001211,
-        "puntaje_minimo": 38.778739
+        "puntaje_maximo": "40.001211",
+        "puntaje_minimo": "38.778739"
     }
 
 ];

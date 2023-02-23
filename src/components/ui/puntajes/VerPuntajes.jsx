@@ -120,11 +120,13 @@ const VerPuntajes = () => {
             name: 'PUNTAJE MINIMO',
             selector: 'puntaje_minimo',
             sortable: true,
+            right: true,
         },
         {
             name: 'PUNTAJE MAXIMO',
             selector: 'puntaje_maximo',
             sortable: true,
+            right: true,
         },
     ];
 
